@@ -4,14 +4,17 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import pl.mikolaj.pokora.pizzatestilioapp.domain.model.SizeType;
 
-import java.util.List;
+import java.math.BigDecimal;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MenuDto {
+public class SizeDto {
 
-    private List<PizzaDto> pizzas;
+    private Integer id;
+    private SizeType size;
+    private BigDecimal price;
 }

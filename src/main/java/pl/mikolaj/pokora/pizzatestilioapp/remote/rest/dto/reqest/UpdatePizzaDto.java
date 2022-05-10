@@ -1,4 +1,4 @@
-package pl.mikolaj.pokora.pizzatestilioapp.remote.rest.dto.response;
+package pl.mikolaj.pokora.pizzatestilioapp.remote.rest.dto.reqest;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,7 +11,8 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MenuDto {
+public class UpdatePizzaDto {
 
-    private List<PizzaDto> pizzas;
+    private String name;
+    private List<AddSizeDto> addSizeDtoList;
 }

@@ -11,7 +11,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MenuDto {
+public class OrderCollectionDto {
 
-    private List<PizzaDto> pizzas;
+    private List<OrderDto> orders;
 }

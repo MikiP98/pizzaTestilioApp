@@ -11,7 +11,9 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MenuDto {
+public class PizzaDto {
 
-    private List<PizzaDto> pizzas;
+    private Integer id;
+    private String name;
+    private List<SizeDto> sizes;
 }
