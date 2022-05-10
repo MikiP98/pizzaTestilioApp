@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import pl.mikolaj.pokora.pizzatestilioapp.domain.model.OrderStatusType;
+import pl.mikolaj.pokora.pizzatestilioapp.remote.rest.dto.reqest.PersonOrderDto;
+import pl.mikolaj.pokora.pizzatestilioapp.remote.rest.dto.reqest.PizzaOrderDto;
 
 import java.util.List;
 
